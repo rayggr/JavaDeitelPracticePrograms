@@ -15,6 +15,8 @@ public class PruebaCuenta {
 		
 		System.out.printf("El nombre en el objeto miCuenta es: %n%s%n",miCuenta.obtenerNombre());
 
+		
+		
 	}
 
 }
