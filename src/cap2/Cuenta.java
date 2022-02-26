@@ -2,16 +2,27 @@ package cap2;
 
 public class Cuenta {
 	private String nombre;
+	private double saldo;
 	
-
-	public Cuenta() {
-		this("Sin nombre");
-	}
-	
-	public Cuenta(String nombre) {
+	public Cuenta(String nombre, double saldo) {
 		this.nombre = nombre;
+		
+		if(saldo > 0.0){
+			this.saldo = saldo;
+		}
 	}
 
+	public void depositar(double montoDeposito)
+	{
+		if(montoDeposito > 0.0){
+			saldo += montoDeposito;
+		}
+	}
+	
+	public double obtenerSaldo() {
+		return saldo;
+	}
+	
 	public void establecerNombre(String nombre) {
 		this.nombre = nombre;
 	}
