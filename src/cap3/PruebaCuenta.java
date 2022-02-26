@@ -1,4 +1,4 @@
-package cap2;
+package cap3;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package cap2;
+package cap3;
 
 public class Cuenta {
 	private String nombre;
