@@ -1,4 +1,7 @@
+package cap7;
+
 public class LibroCalificaciones {
+
     private String nombreDelCurso;
     private int[] calificaciones;
 
@@ -24,11 +27,11 @@ public class LibroCalificaciones {
 
     public int obtenerMinima(){
         int califBaja = calificaciones[0];
-        fir(int calificacion: calificaciones){
+        for(int calificacion: calificaciones){
             if(calificacion < califBaja)
                 califBaja = calificacion;
         }
-        return califBaja
+        return califBaja;
     }
 
     public int obtenerMaxima(){
@@ -50,7 +53,7 @@ public class LibroCalificaciones {
     }
 
     public void imprimirGraficoBarras(){
-        System.out.printn("Distribucion de calificaciones");
+        System.out.println("Distribucion de calificaciones");
         int[] frecuencia = new int[11];
         for(int calificacion:calificaciones)
             ++frecuencia[calificacion / 10];
@@ -64,7 +67,7 @@ public class LibroCalificaciones {
             for(int estrellas  = 0; estrellas < frecuencia[cuenta]; estrellas++)
                 System.out.print("*");
 
-            System.out.println()
+            System.out.println();
         }
     }
 
@@ -72,7 +75,7 @@ public class LibroCalificaciones {
         System.out.println("Las calificaciones son: %n%n");
 
         for(int estudiante = 0; estudiante < calificaciones.length; estudiante++)
-            System.out.printf("Estudiante %2d: %3d%n",estudiante +1, calificaciones[estudiante])
+            System.out.printf("Estudiante %2d: %3d%n",estudiante +1, calificaciones[estudiante]);
     }
 
 }
