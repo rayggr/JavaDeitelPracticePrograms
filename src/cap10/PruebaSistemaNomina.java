@@ -17,13 +17,13 @@ public class PruebaSistemaNomina {
 
         System.out.println("Empleados procesados por separado");
         System.out.printf("%n%s%n%s: $%,.2f%n%n",
-                empleadoAsalariado, "ingresos",empleadoAsalariado.ingresos());
+                empleadoAsalariado, "ingresos",empleadoAsalariado.obtenerMontoPago());
         System.out.printf("%n%s%n%s: $%,.2f%n%n",
-                empleadoPorHoras, "ingresos",empleadoPorHoras.ingresos());
+                empleadoPorHoras, "ingresos",empleadoPorHoras.obtenerMontoPago());
         System.out.printf("%n%s%n%s: $%,.2f%n%n",
-                empleadoPorComision, "ingresos",empleadoPorComision.ingresos());
+                empleadoPorComision, "ingresos",empleadoPorComision.obtenerMontoPago());
         System.out.printf("%n%s%n%s: $%,.2f%n%n",
-                empleadoBaseMasComision, "ingresos",empleadoBaseMasComision.ingresos());
+                empleadoBaseMasComision, "ingresos",empleadoBaseMasComision.obtenerMontoPago());
 
         Empleado[] empleados = new Empleado[4];
         empleados[0] = empleadoAsalariado;
@@ -44,7 +44,7 @@ public class PruebaSistemaNomina {
                 );
             }
 
-            System.out.printf("Ingresos $%,.2f%n%n",empleadosActual.ingresos());
+            System.out.printf("Ingresos $%,.2f%n%n",empleadosActual.obtenerMontoPago());
         }
 
         for (int j = 0; j <empleados.length; j++){

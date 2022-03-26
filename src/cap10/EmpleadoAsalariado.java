@@ -22,7 +22,7 @@ public class EmpleadoAsalariado extends Empleado{
     }
 
     @Override
-    public double ingresos() {
+    public double obtenerMontoPago() {
         return obtenerSalarioSemanal();
     }
     @Override

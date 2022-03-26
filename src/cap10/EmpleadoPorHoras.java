@@ -37,7 +37,7 @@ public class EmpleadoPorHoras extends Empleado{
 
 
     @Override
-    public double ingresos(){
+    public double obtenerMontoPago(){
         if(obtenerHoras() <= 40)
             return obtenerSueldo() * obtenerHoras();
         else

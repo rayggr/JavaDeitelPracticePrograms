@@ -1,6 +1,6 @@
 package cap10;
 
-public abstract class Empleado {
+public abstract class Empleado implements PorPagar {
     private final String primerNombre;
     private final String apellidoPaterno;
     private final String numeroSeguroSocial;
@@ -16,7 +16,6 @@ public abstract class Empleado {
     public String obtenerApellidoPaterno(){
         return apellidoPaterno;
     }
-
     public String obtenerNumeroSeguroSocial(){
         return numeroSeguroSocial;
     }
@@ -28,6 +27,6 @@ public abstract class Empleado {
                 obtenerNumeroSeguroSocial());
     }
 
-    public abstract double ingresos();
+    public abstract double obtenerMontoPago();
 
 }

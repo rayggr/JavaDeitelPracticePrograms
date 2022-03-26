@@ -23,8 +23,8 @@ public class EmpleadoBaseMasComision extends EmpleadoPorComision {
     }
 
     @Override
-    public double ingresos(){
-        return obtenerSalarioBase() +  super.ingresos();
+    public double obtenerMontoPago(){
+        return obtenerSalarioBase() +  super.obtenerMontoPago();
     }
 
     @Override
