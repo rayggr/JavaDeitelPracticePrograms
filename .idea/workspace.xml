@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66dd5ba2-50a8-49b0-9598-3db751c75aa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cap10/Factura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cap10/PorPagar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cap10/PruebaInterfazPagar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cap11/DivisionEntreCerosSinManejoDeExcepciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cap4/optionalGUI/PanelDibujo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cap4/optionalGUI/PanelDibujoPrimeraFigura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cap4/optionalGUI/PruebaPanelDibujo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cap10/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cap10/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cap10/EmpleadoAsalariado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cap10/EmpleadoAsalariado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cap10/EmpleadoBaseMasComision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cap10/EmpleadoBaseMasComision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cap10/EmpleadoPorComision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cap10/EmpleadoPorComision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cap10/EmpleadoPorHoras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cap10/EmpleadoPorHoras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cap10/PruebaSistemaNomina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cap10/PruebaSistemaNomina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,26 +51,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PruebaInterfazPagar">
-    <configuration name="PruebaEmpleadoBaseMasComision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cap9.PruebaEmpleadoBaseMasComision" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cap4.optionalGUI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PruebaPanelDibujo">
+    <configuration name="DivisionEntreCerosSinManejoDeExcepciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cap11.DivisionEntreCerosSinManejoDeExcepciones" />
       <module name="Java8Deitel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cap9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PruebaEmpleadoPorComision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cap9.PruebaEmpleadoPorComision" />
-      <module name="Java8Deitel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cap9.*" />
+          <option name="PATTERN" value="cap11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,6 +76,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cap10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PruebaPanelDibujo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cap4.optionalGUI.PruebaPanelDibujo" />
+      <module name="Java8Deitel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cap4.optionalGUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PruebaPanelDibujo" />
+        <item itemvalue="Application.DivisionEntreCerosSinManejoDeExcepciones" />
         <item itemvalue="Application.PruebaInterfazPagar" />
         <item itemvalue="Application.PruebaSistemaNomina" />
         <item itemvalue="Application.PruebaPolimorfismo" />
-        <item itemvalue="Application.PruebaEmpleadoBaseMasComision" />
-        <item itemvalue="Application.PruebaEmpleadoPorComision" />
       </list>
     </recent_temporary>
   </component>
